@@ -150,23 +150,14 @@
      "Fn::Join": [
       "",
       [
-       "arn:",
-       {
-        "Ref": "AWS::Partition"
-       },
-       ":execute-api:",
+       "arn:aws:apigateway:",
        {
         "Ref": "AWS::Region"
        },
-       ":",
-       {
-        "Ref": "AWS::AccountId"
-       },
-       ":",
+       "::/restapis/",
        {
         "Ref": "OpenApiGatewayToLambdaSpecRestApi27C18064"
-       },
-       "/*/*/*"
+       }
       ]
      ]
     }
@@ -321,23 +312,14 @@
      "Fn::Join": [
       "",
       [
-       "arn:",
-       {
-        "Ref": "AWS::Partition"
-       },
-       ":execute-api:",
+       "arn:aws:apigateway:",
        {
         "Ref": "AWS::Region"
        },
-       ":",
-       {
-        "Ref": "AWS::AccountId"
-       },
-       ":",
+       "::/restapis/",
        {
         "Ref": "OpenApiGatewayToLambdaSpecRestApi27C18064"
-       },
-       "/*/*/*"
+       }
       ]
      ]
     }
@@ -492,23 +474,14 @@
      "Fn::Join": [
       "",
       [
-       "arn:",
-       {
-        "Ref": "AWS::Partition"
-       },
-       ":execute-api:",
+       "arn:aws:apigateway:",
        {
         "Ref": "AWS::Region"
        },
-       ":",
-       {
-        "Ref": "AWS::AccountId"
-       },
-       ":",
+       "::/restapis/",
        {
         "Ref": "OpenApiGatewayToLambdaSpecRestApi27C18064"
-       },
-       "/*/*/*"
+       }
       ]
      ]
     }
